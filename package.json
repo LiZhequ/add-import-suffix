@@ -1,0 +1,26 @@
+{
+  "name": "add-import-suffix",
+  "version": "0.0.1",
+  "description": "批量添加import声明和表达式的路径文件名后缀",
+  "main": "index.js",
+  "bin": {
+    "add-import-suffix": "index.js"
+  },
+  "repository": "https://github.com/LiZhequ/add-import-suffix",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "util",
+    "ast",
+    "import",
+    "suffix"
+  ],
+  "author": "lizhequ",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "gogocode": "^1.0.46",
+    "mri": "^1.2.0"
+  }
+}
